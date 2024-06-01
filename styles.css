@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #141414;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #202020;
+}
+
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-text {
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: 흰색; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.hero .movie-image {
+    max-width: 70%; 
+    height: auto;
+    border-radius: 0px;
+}
+
+.hero-content {
+    background-color: 검정;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.title {
+    font-size: 55px;
+    margin: 0;
+    color: red 
+}
+
+.release-date, .rating, .synopsis {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.details {
+    padding: 20px;
+    background-color: 검정;
+    border-top: 2px solid #ffffff;
+    text-align: center;
+}
+
+.details h2 {
+    margin-top: 0;
+    color: red
+}
+
+.details p {
+    font-size: 18px;
+}
+
+.cast {
+    padding: 20px;
+    background-color: 검정;
+    border-top: 2px solid #ffffff;
+    text-align: center;
+}
+
+.cast h2 {
+    margin-top: 0;
+    color: red
+}
+
+.cast-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cast-member {
+    text-align: center;
+    flex: 11 calc;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.cast-member img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cast-member p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.trailer {
+    padding: 20px;
+    background-color: 검정;
+    border-top: 2px solid #ffffff;
+    text-align: center;
+}
+
+.trailer h2 {
+    margin-top: 0;
+    color: red
+}
+
+.trailer-video {
+    margin: 20px 0;
+}
+
+.trailer-video iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+}
+
+/* CSS */
+
+.ticket-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.author {
+    font-size: 25px;
+    color: #666666;
+    display: block; 
+    margin-top: 20px;
+}
+
