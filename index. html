@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<meta name="robots" content="noindex">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화 소개 페이지</title>
+    <link rel="stylesheet" href="styles.css">
+<style id="jsbin-css">
+
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">계원 OTT</div>
+    </header>
+    <section class="hero">
+        <img src="https://i.imgur.com/imsAvor.jpeg" alt="영화 이미지" class="movie-image">
+        <div class="hero-content">
+            <h1 class="title">CHICAGO</h1>
+            <p class="release-date">개봉일: 2000년</p>
+            <p class="rating">한국 누적 관객: 154만명</p>
+            <p class="synopsis">
+                줄거리: 1920년대 미국을 배경으로, 남편과 불륜을 저지른 여동생을 살해한 여가수 '벨마 켈리'와 불륜남을 살해한 혐의로 수감된 코러스 걸 '록시 하트'가 유명 가수로 거듭나는 이야기를 그린다.
+            </p>
+        </div>
+    </section>
+    <section class="details">
+        <h2>추가 정보</h2>
+        <p>연출: 타냐 나디니 (Tania Nardini)
+</p>
+        <p>출연진: 최정원, 윤공주, 아이비, 티파니 영, 민경아, 박건형, 최재림, 김영주, 김경선, 차정현, S.J.Kim, 정선아
+</p>
+        <p>장르: 뮤지컬, 범죄, 드라마, 시대극</p>
+    </section>
+    <section class="cast">
+        <h2>등장인물</h2>
+        <div class="cast-list">
+            <div class="cast-member">
+                <img src="https://i.imgur.com/VA4Z1yn.png" alt="벨마 켈리">
+                <p>벨마 켈리</p>
+            </div>
+            <div class="cast-member">
+                <img src="https://i.imgur.com/t8Jur17.png" alt="록시 하트">
+                <p>록시 하트</p>
+            </div>
+            <div class="cast-member">
+                <img src="https://i.imgur.com/IzWmnei.png" alt="이민호">
+                <p>빌리 플린</p>
+            </div>
+            <div class="cast-member">
+                <img src="https://i.imgur.com/g8Z7iix.png" alt="최자혜">
+                <p>마마 모튼</p>
+            </div>
+        </div>
+    </section>
+    <section class="trailer">
+        <h2>예고편</h2>
+        <div class="trailer-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/36hshluncms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+ <a href=https://tickets.interpark.com/goods/24005266 class="ticket-link" target="_blank">티켓 예매하기</a>
+      <span class="author">문지연</span>
+  
+
+</body>
+</html>
